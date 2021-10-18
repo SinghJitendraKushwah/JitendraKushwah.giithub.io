@@ -1,0 +1,75 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+.logo img{
+    height: 45px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li a{
+    color: gray;
+    margin: 0 5px;
+    text-transform: uppercase;
+
+}
+a{
+    text-decoration: none;
+}
+.hey{
+    color: #39bfbd;
+    border-bottom: 2px solid #39bfbd;
+    font-size: 0.9em;
+
+}
+.hey:hover{
+    color: white;
+    background-color: #39bfbd;        
+}
+.image img{
+    width: 400px;
+    /* height: 100px; */
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 90%; */
+    margin-top: 25px;
+}
+.main-text{
+    width: 400px;
+}
+.main-text h1{
+    color: #1c3548;
+    font-size: 3.5em;
+
+}
+.main-text p{
+    color: gray;
+
+}
+.resume-btn{
+    color: white;
+    background-color: #1db096;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume-btn:hover{
+    background-color: #23cdaf;
+
+}
+.menu li a:hover{
+    background-color: #23cdaf;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+}
